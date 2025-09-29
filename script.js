@@ -74,7 +74,7 @@ function startTimer() {
 document.body.addEventListener("click", () => {
   if (timerEnded) {
     alarmSound.play();
-    timerEnded = false; // 一度だけ鳴らすように
+   let timerEnded = false; // 一度だけ鳴らすように
   }
 });
 
