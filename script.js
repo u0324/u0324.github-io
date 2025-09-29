@@ -47,7 +47,7 @@ document.getElementById("reset").addEventListener("click", reset);
 
 // タイマー用変数
 let countdown;
-const alarmSound = new Audio("alarm.mp3"); // 音ファイルはプロジェクトに入れてね！
+const alarmSound = new Audio("sounds/alarm.mp3"); // 音ファイルはプロジェクトに入れてね！
 
 // タイマー開始
 function startTimer() {
