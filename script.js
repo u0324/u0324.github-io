@@ -65,7 +65,7 @@ function startTimer() {
     updateTimerDisplay(time);
     if (time <= 0) {
       clearInterval(countdown);
-      alarmSound.play(); // 終了時に音を鳴らす！
+      timerEnbed =true;
     }
   }, 1000);
 }
