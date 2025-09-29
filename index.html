@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>time management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ストップウォッチセクション -->
+  <section class="section" id="stopwatch">
+    <h1>STOPWATCH</h1>
+    <div id="display">00:00:00</div>
+    <div class="buttons">
+      <button id="start">START</button>
+      <button id="stop">STOP</button>
+      <button id="reset">RESET</button>
+    </div>
+  
+  </section>
+
+  <!-- タイマーセクション -->
+  <section class="section" id="timer">
+    <h1>TIMER</h1>
+    <input type="number" id="minutes" placeholder="分を入力" min="0">
+    <div id="timerDisplay">00:00</div>
+    <div class="buttons">
+      <button id="timerStart">START</button>
+      <button id="timerStop">STOP</button>
+      <button id="timerReset">RESET</button>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
